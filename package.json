@@ -1,6 +1,6 @@
 {
   "name": "@tetris/locale-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "request locale middleware",
   "main": "index.js",
   "repository": {
