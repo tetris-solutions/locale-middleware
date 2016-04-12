@@ -10,7 +10,7 @@ function createLocaleMiddleware (messages, defaultLocale) {
    * @returns {undefined}
    */
   function localeMiddleware (req, res, next) {
-    var cookieLocale = req.cookies[process.env.LOCALE_COOKIE_NAME]
+    var cookieLocale = req.cookies && req.cookies[process.env.LOCALE_COOKIE_NAME]
     var headerLocale = req.acceptsLanguages(Object.keys(messages))
     var userLocale = req.user ? req.user.locale : null
     req.locale = cookieLocale || headerLocale || userLocale || defaultLocale
