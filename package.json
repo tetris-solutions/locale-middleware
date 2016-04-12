@@ -1,0 +1,14 @@
+{
+  "name": "@tetris/locale-middleware",
+  "version": "0.0.0",
+  "description": "request locale middleware",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetris-solutions/locale-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tetris-solutions/locale-middleware/issues"
+  },
+  "homepage": "https://github.com/tetris-solutions/locale-middleware#readme"
+}
